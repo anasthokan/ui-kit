@@ -1,21 +1,22 @@
 {
   "name": "@g44/ui-kit",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
-  "main": "./dist/index.umd.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.umd.cjs"
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "require": "./src/index.ts",
+      "default": "./src/index.ts"
     },
-    "./styles.css": "./dist/style.css"
+    "./styles.css": "./src/theme/theme.css"
   },
   "files": [
-    "dist"
+    "src"
   ],
   "scripts": {
     "dev": "vite build --watch",
@@ -26,11 +27,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-  "@emotion/react": "^11.14.0",
-  "@emotion/styled": "^11.14.0",
-  "@mui/icons-material": "^7.3.11",
-  "@mui/lab": "^7.0.1-beta.18",
-  "@mui/material": "^7.3.11"
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.3.11",
+    "@mui/lab": "^7.0.1-beta.18",
+    "@mui/material": "^7.3.11"
   },
   "peerDependencies": {
     "react": "^18.2.0",
