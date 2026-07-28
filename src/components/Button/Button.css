@@ -4,6 +4,20 @@
   border-radius: 8px;
 }
 
+.myorg-button--primary {
+  background-color: var(--color-brand-primary) !important;
+  color: var(--color-white) !important;
+}
+
+.myorg-button--primary:hover {
+  background-color: #c62828 !important;
+}
+
+.myorg-button--secondary {
+  border-color: var(--color-brand-primary) !important;
+  color: var(--color-brand-primary) !important;
+}
+
 .myorg-button--sm {
   font-size: 0.75rem;
   padding: 4px 12px;
