@@ -1,0 +1,31 @@
+.myorg-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.myorg-card--outlined {
+  border: 1px solid #e5e7eb;
+}
+
+.myorg-card--flat {
+  box-shadow: none;
+  background: transparent;
+}
+
+.myorg-card__header {
+  padding: 16px 24px 0;
+}
+
+.myorg-card__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.myorg-card__content {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.myorg-card__actions {
+  padding: 0 24px 16px;
+}

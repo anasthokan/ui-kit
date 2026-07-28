@@ -1,0 +1,22 @@
+.myorg-typography {
+  margin: 0;
+  padding: 0;
+}
+
+.myorg-typography a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.myorg-typography a:hover {
+  text-decoration: underline;
+}
+
+.myorg-typography strong {
+  font-weight: 600;
+}
+
+.myorg-typography em {
+  font-style: italic;
+}

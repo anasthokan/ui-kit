@@ -1,0 +1,7 @@
+.myorg-stepper .MuiStepLabel-root {
+  cursor: default;
+}
+
+.myorg-stepper .MuiStepLabel-label {
+  font-size: 0.8125rem;
+}

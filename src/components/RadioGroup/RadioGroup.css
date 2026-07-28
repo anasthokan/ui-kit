@@ -1,0 +1,26 @@
+.myorg-radio-group {
+  display: flex;
+  gap: 8px;
+}
+
+.myorg-radio-group__label {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.myorg-radio-group__label--small {
+  font-size: 0.75rem;
+}
+
+.myorg-radio-group__label--medium {
+  font-size: 0.875rem;
+}
+
+.myorg-radio-group__label--small .MuiRadio-root {
+  padding: 4px;
+}
+
+.myorg-radio-group__label--medium .MuiRadio-root {
+  padding: 8px;
+}

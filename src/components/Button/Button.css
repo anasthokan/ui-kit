@@ -1,0 +1,24 @@
+.myorg-button {
+  text-transform: none;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.myorg-button--sm {
+  font-size: 0.75rem;
+  padding: 4px 12px;
+}
+
+.myorg-button--md {
+  font-size: 0.875rem;
+  padding: 8px 20px;
+}
+
+.myorg-button--lg {
+  font-size: 1rem;
+  padding: 12px 28px;
+}
+
+.myorg-button--ghost {
+  background: transparent;
+}

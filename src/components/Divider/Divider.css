@@ -1,0 +1,12 @@
+.myorg-divider {
+  width: 100%;
+}
+
+.myorg-divider::before,
+.myorg-divider::after {
+  border-color: #e5e7eb;
+}
+
+.myorg-divider--vertical {
+  min-height: 100%;
+}

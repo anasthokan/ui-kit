@@ -1,0 +1,19 @@
+.myorg-loading-overlay {
+  position: relative;
+  min-height: 100px;
+}
+
+.myorg-loading-overlay__content {
+  filter: blur(0);
+  transition: filter 0.3s ease;
+}
+
+.myorg-loading-overlay--loading .myorg-loading-overlay__content {
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.myorg-loading-overlay__backdrop {
+  background: rgba(255, 255, 255, 0.8);
+  transition: opacity 0.3s ease;
+}
